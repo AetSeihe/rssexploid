@@ -1,0 +1,321 @@
+.admin-menu ul.list-group {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.admin-menu ul.list-group .list-group-item {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.admin-menu ul.list-group .name {
+    width: 80%;
+    cursor: pointer;
+    display: block;
+}
+
+.admin-menu ul.list-group .meta {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.admin-menu ul.list-group .meta span {
+    cursor: pointer;
+}
+
+.admin-menu ul.list-group .meta svg {
+    width: 14px;
+    height: 14px;
+}
+
+.admin-menu ul.list-group .destroy {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.admin-menu ul.list-group .destroy svg {
+    width: 14px;
+    height: 14px;
+}
+
+.admin-menu ul.list-group .edit {
+    margin-top: 0px;
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,.125);
+    padding-top: 15px;
+    height: 0px;
+    opacity: 0;
+    transition: all 300ms;
+}
+
+.card .group-btn a {
+    color: #fff;
+}
+
+.ce-block__content, .ce-toolbar__content {
+    max-width: 95% !important;
+}
+
+.box .form-group #images {
+    width: 350px;
+    margin: 10px 0px;
+    max-height: 300px;
+    height: auto;
+}
+
+.box .images-preview {
+    text-align: center;
+}
+
+.custom-file-input:lang(en)~.custom-file-label::after {
+    content: 'Загрузить';
+}
+
+.admin-menu ul.list-group .list-group-item.show .edit {
+    height: auto;
+    opacity: 1;
+    transition: all 300ms;
+    margin-top: 15px;
+}
+
+.post-deck {
+    flex-wrap: wrap;
+}
+
+.post-deck .card {
+    width: 25%;
+    margin-bottom: 20px;
+    flex: auto;
+}
+
+.meta {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.card #gallery .item .delete {
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+
+.card #gallery .item .delete svg {
+    fill: #fff;
+}
+
+.card #gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#categorys .item td:nth-child(3) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#info svg {
+    width: 20px;
+    height: 20px;
+}
+
+#categorys .item td svg {
+    width: 20px;
+    height: 20px;
+}
+
+.card #gallery .file {
+    display: flex;
+    position: relative;
+    padding: 0px 20px 0px 0px;
+    width: 20%;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.card #gallery .item img {
+    width: 100%;
+    border-radius: 10px;
+    height: auto;
+    min-height: 120px;
+}
+
+.card #gallery .item input {
+    cursor: pointer;
+}
+
+.card #gallery .item .custom-file {
+    margin-top: 10px;
+}
+
+.card #gallery .item svg {
+    width: 20px;
+    height: 20px;
+}
+
+#message .user svg {
+    height: 48px;
+}
+
+#message .list-message .message {
+    display: none;
+}
+
+#message .list-message .message.active {
+    display: block;
+}
+
+.meta svg {
+    width: 18px;
+    height: 18px;
+    margin-left: 14px;
+}
+
+#tags .item {
+    width: 100%;
+    display: flex;
+    padding: 2px 0px 10px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#tags .item svg {
+    width: 14px;
+    cursor: pointer;
+    height: 14px;
+}
+
+#form-setting .row {
+    margin-bottom: 30px;
+}
+
+#podcasts .card {
+    position: relative;
+}
+
+#podcasts .card .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#podcasts .card .title input {
+    width: 96%;
+}
+
+#podcasts .card svg {
+    margin-bottom: 12px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+#error {
+    margin-top: 10px;
+}
+
+#info-create #info-list h6 {
+    cursor: pointer;
+}
+
+#info-create #info-list h6.show {
+    opacity: 0.7;
+}
+
+
+#info-create #list .box {
+    display: none;
+}
+
+#info-create #list .box.show {
+    display: block;
+}
+
+#advertising .box {
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0,0,0,.03);
+}
+
+#advertising .box .destroy {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+}
+
+#info-create svg {
+    width: 20px;
+    opacity: 1;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+}
+
+#info-create .col-9 .row:nth-child(3) {
+    margin: 0;
+    justify-content: space-between;
+}
+
+#info-create .col-9 .row .col-8 {
+    flex: 0 0 65.666667%;
+    max-width: 65.666667%;
+}
+
+#info-create .item {
+    padding-right: 30px;
+    position: relative;
+}
+
+#video .card {
+    position: relative;
+}
+
+#video .card input:nth-child(1) {
+    width: 96%;
+}
+
+#video-index iframe {
+    min-height: 400px;
+}
+
+#video .card .destroy, #ether .card .destroy {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.box .form-group #images {
+    max-height: inherit !important;
+}
+
+a.nav-link.active{
+    color: #5cad66!important;
+}
+
+
+
+
+
+
+
+
+
+
+
